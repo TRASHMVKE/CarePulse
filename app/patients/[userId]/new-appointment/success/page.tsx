@@ -38,14 +38,13 @@ const RequestSuccess = async ({
             alt="success"
           />
           <h2 className="header mb-6 max-w-[600px] text-center">
-            Your <span className="text-green-500">appointment request</span> has
-            been successfully submitted!
+            Tu <span className="text-green-500">solicitud de cita</span> ha sido enviada correctamente!
           </h2>
-          <p>We&apos;ll be in touch shortly to confirm.</p>
+          <p>Nos pondremos en contacto contigo en breve para confirmar.</p>
         </section>
 
         <section className="request-details">
-          <p>Requested appointment details: </p>
+          <p>Detalles de la cita solicitada: </p>
           <div className="flex items-center gap-3">
             <Image
               src={doctor?.image!}
@@ -69,7 +68,7 @@ const RequestSuccess = async ({
 
         <Button variant="outline" className="shad-primary-btn" asChild>
           <Link href={`/patients/${userId}/new-appointment`}>
-            New Appointment
+            Nuevo nombramiento
           </Link>
         </Button>
 
