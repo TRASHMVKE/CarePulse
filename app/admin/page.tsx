@@ -22,14 +22,14 @@ const AdminPage = async () => {
           />
         </Link>
 
-        <p className="text-16-semibold">Admin Dashboard</p>
+        <p className="text-16-semibold">Panel de administración</p>
       </header>
 
       <main className="admin-main">
         <section className="w-full space-y-4">
-          <h1 className="header">Welcome 👋</h1>
+          <h1 className="header">Bienvenido 👋</h1>
           <p className="text-dark-700">
-            Start the day with managing new appointments
+            Empieza el día gestionando nuevas citas
           </p>
         </section>
 
